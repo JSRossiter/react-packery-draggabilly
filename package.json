@@ -1,19 +1,27 @@
 {
-  "name": "react-packery-component",
+  "name": "react-packery-draggabilly",
   "version": "1.0.2",
   "main": "./lib/index",
-  "description": "A Packery component for React.js",
+  "description": "A Packery + draggabilly component for React.js",
   "dependencies": {
+    "draggabilly": "^2.1.1",
+    "imagesloaded": "eiriklv/imagesloaded",
     "packery": "eiriklv/packery",
-    "imagesloaded": "eiriklv/imagesloaded"
+    "react": "^15.5.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/eiriklv/react-packery-component.git"
+    "url": "git://github.com/JSRossiter/react-packery-draggabilly.git"
   },
   "keywords": [
     "react",
@@ -28,11 +36,14 @@
     {
       "name": "Marwan Butrous",
       "email": "marwan.butrous@protonmail.ch"
+    },
+    {
+      "name": "Jeff Rossiter"
     }
   ],
   "bugs": {
-    "url": "https://github.com/eiriklv/react-packery-component/issues"
+    "url": "https://github.com/JSRossiter/react-packery-draggabilly/issues"
   },
-  "homepage": "https://github.com/eiriklv/react-packery-component",
+  "homepage": "https://github.com/JSRossiter/react-packery-draggabilly",
   "license": "MIT"
 }
